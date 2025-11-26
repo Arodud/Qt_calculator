@@ -1,7 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/basic_calculator/">
-    <file alias="src/Main.qml">C:/Users/arosl/Documents/basic_calculator/src/Main.qml</file>
-    <file alias="src/CalculatorButton.qml">C:/Users/arosl/Documents/basic_calculator/src/CalculatorButton.qml</file>
-  </qresource>
-</RCC>
-
