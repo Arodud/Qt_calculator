@@ -2,17 +2,19 @@
 #define CALCULATOR_H
 
 #include <QObject>
+#include <QString>
 
 class Calculator : public QObject {
     Q_OBJECT;
 
-
+    Q_PROPERTY(QString display READ display WRITE setDisplay NOTIFY displayChanged)
+    Q_PROPERTY(QString history READ history NOTIFY historyChanged)
 
 public:
     Calculator(QObject *parent = nullptr);
 
-    QString display();
-    QString history();
+    QString display() const;
+    QString history() const;
 
 public slots:
     void appendNumber(const QString &number);

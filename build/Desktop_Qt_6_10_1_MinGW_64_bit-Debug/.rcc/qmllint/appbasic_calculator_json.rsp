@@ -8,6 +8,6 @@ C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-D
 --resource
 C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/appbasic_calculator_raw_qml_0.qrc
 C:/Users/arosl/Documents/basic_calculator/Main.qml
-C:/Users/arosl/Documents/basic_calculator/button.qml
+C:/Users/arosl/Documents/basic_calculator/CalculatorButton.qml
 --json
 C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appbasic_calculator_qmllint.json

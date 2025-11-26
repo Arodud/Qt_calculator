@@ -9,17 +9,19 @@ find_package(Qt6 REQUIRED COMPONENTS Quick)
 qt_standard_project_setup(REQUIRES 6.8)
 
 qt_add_executable(appbasic_calculator
-    main.cpp
+    src/main.cpp
 )
+
+target_include_directories(appbasic_calculator PUBLIC include)
 
 qt_add_qml_module(appbasic_calculator
     URI basic_calculator
+    QML_FILES Main.qml
     QML_FILES
-        Main.qml
-        QML_FILES button.qml
-        SOURCES calculator.h
-        SOURCES calculator.cpp
-        SOURCES build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/sfd.h build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/sfd.cpp
+    SOURCES src/main.cpp
+    SOURCES src/calculator.cpp
+    SOURCES include/buttonmodel.h
+    QML_FILES CalculatorButton.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

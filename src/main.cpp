@@ -1,11 +1,21 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QQmlContext>
+#include "calculator.h"
+
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
+
+    Calculator calculator;
+
+
     QQmlApplicationEngine engine;
+
+    engine.rootContext()->setContextProperty("calculator", &calculator);
+
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreationFailed,

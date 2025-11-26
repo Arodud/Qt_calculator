@@ -2,5 +2,6 @@ module basic_calculator
 typeinfo appbasic_calculator.qmltypes
 prefer :/qt/qml/basic_calculator/
 Main 254.0 Main.qml
+CalculatorButton 254.0 CalculatorButton.qml
 depends QtQuick
 

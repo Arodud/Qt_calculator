@@ -870,15 +870,9 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/sfd.h",
+			"C:/Users/arosl/Documents/basic_calculator/include/buttonmodel.h",
 			"MU",
-			"H336FDZWSF/moc_sfd.cpp",
-			null
-		],
-		[
-			"C:/Users/arosl/Documents/basic_calculator/calculator.h",
-			"MU",
-			"EWIEGA46WW/moc_calculator.cpp",
+			"6YEA5652QU/moc_buttonmodel.cpp",
 			null
 		]
 	],
@@ -912,6 +906,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"C:/Users/arosl/Documents/basic_calculator/include",
 		"C:/Users/arosl/Documents/basic_calculator",
 		"C:/Qt/6.10.1/mingw_64/include/QtQml",
 		"C:/Qt/6.10.1/mingw_64/include",
@@ -954,8 +949,8 @@
 	[
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appbasic_calculator_raw_qml_0.cpp",
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_basic_calculator.cpp",
+		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_CalculatorButton_qml.cpp",
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_Main_qml.cpp",
-		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_button_qml.cpp",
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_qmlcache_loader.cpp",
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appbasic_calculator_qmltyperegistrations.cpp"
 	],
@@ -970,16 +965,11 @@
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/sfd.cpp",
+			"C:/Users/arosl/Documents/basic_calculator/src/calculator.cpp",
 			"MU",
 			null
 		],
-		[
-			"C:/Users/arosl/Documents/basic_calculator/calculator.cpp",
-			"MU",
-			null
-		],
-		[ "C:/Users/arosl/Documents/basic_calculator/main.cpp", "MU", null ]
+		[ "C:/Users/arosl/Documents/basic_calculator/src/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
@@ -987,8 +977,8 @@
 	[
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appbasic_calculator_raw_qml_0.cpp",
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_basic_calculator.cpp",
+		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_CalculatorButton_qml.cpp",
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_Main_qml.cpp",
-		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_button_qml.cpp",
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_qmlcache_loader.cpp",
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appbasic_calculator_qmltyperegistrations.cpp"
 	],

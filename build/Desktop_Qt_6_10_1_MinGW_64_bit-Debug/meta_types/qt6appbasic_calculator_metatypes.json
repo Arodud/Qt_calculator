@@ -1,2 +1,20 @@
 [
+    {
+        "classes": [
+            {
+                "className": "ButtonModel",
+                "lineNumber": 13,
+                "object": true,
+                "qualifiedClassName": "ButtonModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "buttonmodel.h",
+        "outputRevision": 69
+    }
 ]

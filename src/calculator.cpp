@@ -1,4 +1,7 @@
 #include "calculator.h"
+#include <cmath>
+#include <exception>
+
 
 Calculator::Calculator(QObject *parent)
     : QObject(parent)
@@ -9,12 +12,12 @@ Calculator::Calculator(QObject *parent)
     , m_accumulator(0.0)
 {}
 
-QString Calculator::display()
+QString Calculator::display() const
 {
     return m_display;
 }
 
-QString Calculator::history()
+QString Calculator::history() const
 {
     return m_value + " " + m_operatorBuffer;
 }
