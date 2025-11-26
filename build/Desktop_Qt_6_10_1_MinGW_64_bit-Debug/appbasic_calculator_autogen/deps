@@ -1,5 +1,6 @@
 appbasic_calculator_autogen/timestamp: \
 	C:/Qt/6.10.1/mingw_64/include/QtCore/QAbstractListModel \
+	C:/Qt/6.10.1/mingw_64/include/QtCore/QObject \
 	C:/Qt/6.10.1/mingw_64/include/QtCore/QString \
 	C:/Qt/6.10.1/mingw_64/include/QtCore/q17memory.h \
 	C:/Qt/6.10.1/mingw_64/include/QtCore/q20functional.h \
@@ -919,6 +920,8 @@ appbasic_calculator_autogen/timestamp: \
 	C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appbasic_calculator_autogen/moc_predefs.h \
 	C:/Users/arosl/Documents/basic_calculator/include/buttonmodel.h \
+	C:/Users/arosl/Documents/basic_calculator/include/calculator.h \
+	C:/Users/arosl/Documents/basic_calculator/src/buttonmodel.cpp \
 	C:/Users/arosl/Documents/basic_calculator/src/calculator.cpp \
 	C:/Users/arosl/Documents/basic_calculator/src/main.cpp \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

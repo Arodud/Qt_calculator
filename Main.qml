@@ -1,9 +1,12 @@
 import QtQuick
 import QtQuick.Layouts
+import QtQuick.Window
 
-Rectangle {
+Window {
     width: 320
     height: 480
+    visible: true  // ← ВАЖНО: установите visible: true
+    title: "Calculator"
     color: "#121212"
 
     // История вычислений

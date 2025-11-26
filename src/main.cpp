@@ -24,5 +24,10 @@ int main(int argc, char *argv[])
         Qt::QueuedConnection);
     engine.loadFromModule("basic_calculator", "Main");
 
+    if (engine.rootObjects().isEmpty()) {
+        qDebug() << "No QML objects loaded!";
+        return -1;
+    }
+
     return app.exec();
 }

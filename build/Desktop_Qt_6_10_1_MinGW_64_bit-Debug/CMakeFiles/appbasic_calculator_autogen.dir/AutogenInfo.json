@@ -874,6 +874,12 @@
 			"MU",
 			"6YEA5652QU/moc_buttonmodel.cpp",
 			null
+		],
+		[
+			"C:/Users/arosl/Documents/basic_calculator/include/calculator.h",
+			"MU",
+			"6YEA5652QU/moc_calculator.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -964,6 +970,11 @@
 	"SETTINGS_FILE" : "C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/appbasic_calculator_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/arosl/Documents/basic_calculator/src/buttonmodel.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/arosl/Documents/basic_calculator/src/calculator.cpp",
 			"MU",

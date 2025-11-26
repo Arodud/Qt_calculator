@@ -12,6 +12,8 @@ qt_add_executable(appbasic_calculator
     src/main.cpp
 )
 
+set(CMAKE_AUTOMOC ON)
+
 target_include_directories(appbasic_calculator PUBLIC include)
 
 qt_add_qml_module(appbasic_calculator
@@ -22,6 +24,8 @@ qt_add_qml_module(appbasic_calculator
     SOURCES src/calculator.cpp
     SOURCES include/buttonmodel.h
     QML_FILES CalculatorButton.qml
+    SOURCES src/buttonmodel.cpp
+    include/calculator.h
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
