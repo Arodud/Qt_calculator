@@ -859,6 +859,8 @@
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
+		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
 		"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/qml_imports/appbasic_calculator_conf.cmake"
@@ -954,10 +956,11 @@
 	"MOC_SKIP" : 
 	[
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appbasic_calculator_raw_qml_0.cpp",
+		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appbasic_calculator_raw_qml_0_extra_qmldirs.cpp",
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_basic_calculator.cpp",
-		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_CalculatorButton_qml.cpp",
-		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_Main_qml.cpp",
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_qmlcache_loader.cpp",
+		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_src/CalculatorButton_qml.cpp",
+		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_src/Main_qml.cpp",
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appbasic_calculator_qmltyperegistrations.cpp"
 	],
 	"MULTI_CONFIG" : false,
@@ -987,10 +990,11 @@
 	"UIC_SKIP" : 
 	[
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appbasic_calculator_raw_qml_0.cpp",
+		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appbasic_calculator_raw_qml_0_extra_qmldirs.cpp",
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_basic_calculator.cpp",
-		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_CalculatorButton_qml.cpp",
-		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_Main_qml.cpp",
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_qmlcache_loader.cpp",
+		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_src/CalculatorButton_qml.cpp",
+		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.rcc/qmlcache/appbasic_calculator_src/Main_qml.cpp",
 		"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/appbasic_calculator_qmltyperegistrations.cpp"
 	],
 	"UIC_UI_FILES" : [],

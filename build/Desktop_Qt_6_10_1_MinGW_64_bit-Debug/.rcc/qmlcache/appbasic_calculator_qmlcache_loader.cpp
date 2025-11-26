@@ -5,14 +5,14 @@
 #include <QtCore/qstring.h>
 
 namespace QmlCacheGeneratedCode {
-namespace _qt_qml_basic_calculator_Main_qml { 
+namespace _qt_qml_basic_calculator_src_Main_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _qt_qml_basic_calculator_CalculatorButton_qml { 
+namespace _qt_qml_basic_calculator_src_CalculatorButton_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -33,8 +33,8 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 
 Registry::Registry() {
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/basic_calculator/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_basic_calculator_Main_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/basic_calculator/CalculatorButton.qml"), &QmlCacheGeneratedCode::_qt_qml_basic_calculator_CalculatorButton_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/basic_calculator/src/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_basic_calculator_src_Main_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/basic_calculator/src/CalculatorButton.qml"), &QmlCacheGeneratedCode::_qt_qml_basic_calculator_src_CalculatorButton_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

@@ -2,5 +2,7 @@
 C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qmake_basic_calculator.qrc
 --resource
 C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/appbasic_calculator_raw_qml_0.qrc
-/qt/qml/basic_calculator/Main.qml
-/qt/qml/basic_calculator/CalculatorButton.qml
+--resource
+C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/appbasic_calculator_raw_qml_0_extra_qmldirs.qrc
+/qt/qml/basic_calculator/src/Main.qml
+/qt/qml/basic_calculator/src/CalculatorButton.qml

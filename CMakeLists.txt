@@ -18,12 +18,11 @@ target_include_directories(appbasic_calculator PUBLIC include)
 
 qt_add_qml_module(appbasic_calculator
     URI basic_calculator
-    QML_FILES Main.qml
-    QML_FILES
+    QML_FILES src/Main.qml
+    QML_FILES src/CalculatorButton.qml
     SOURCES src/main.cpp
     SOURCES src/calculator.cpp
     SOURCES include/buttonmodel.h
-    QML_FILES CalculatorButton.qml
     SOURCES src/buttonmodel.cpp
     include/calculator.h
 )
