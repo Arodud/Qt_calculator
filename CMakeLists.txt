@@ -19,6 +19,7 @@ qt_add_qml_module(appbasic_calculator
         QML_FILES button.qml
         SOURCES calculator.h
         SOURCES calculator.cpp
+        SOURCES build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/sfd.h build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/sfd.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

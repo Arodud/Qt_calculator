@@ -870,6 +870,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/sfd.h",
+			"MU",
+			"H336FDZWSF/moc_sfd.cpp",
+			null
+		],
+		[
 			"C:/Users/arosl/Documents/basic_calculator/calculator.h",
 			"MU",
 			"EWIEGA46WW/moc_calculator.cpp",
@@ -963,6 +969,11 @@
 	"SETTINGS_FILE" : "C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/appbasic_calculator_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/arosl/Documents/basic_calculator/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/sfd.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/arosl/Documents/basic_calculator/calculator.cpp",
 			"MU",
