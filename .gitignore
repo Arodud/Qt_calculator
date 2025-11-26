@@ -1,2 +1,61 @@
-.qtcerator/
+# Build directories
 build/
+cmake-build-*/
+Debug/
+Release/
+x64/
+x86/
+*.build/
+
+# Qt generated files
+moc_*
+*.moc
+qrc_*
+ui_*
+*.qrc.d
+
+# Qt Creator
+*.user
+*.user.*
+CMakeLists.txt.user*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+*.dmg
+*.deb
+*.rpm
+
+# Install directories
+install/
+dist/
+
+# QML cache
+*.qmlc
+*.jsc
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
